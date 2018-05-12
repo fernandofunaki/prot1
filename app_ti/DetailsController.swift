@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate  {
+class DetailsController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate  {
   
     let categoryName = ["Redes", "Sistemas Operacionais", "Internet", "Word Press"]
     let categoryImage = [UIImage(named: "category_wordpress"),

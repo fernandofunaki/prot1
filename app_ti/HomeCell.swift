@@ -1,16 +1,16 @@
 //
-//  CollectionViewCell.swift
+//  HomeCollectionViewCell.swift
 //  app_ti
 //
-//  Created by fernando-mba on 02/05/18.
+//  Created by fernando-mbp on 03/05/18.
 //  Copyright © 2018 fernando-mba. All rights reserved.
 //
 
 import UIKit
 
-class CollectionViewCell: UICollectionViewCell {
+class HomeCell: UICollectionViewCell {
     
     @IBOutlet weak var category_image: UIImageView!
+    
     @IBOutlet weak var category_name: UILabel!
-    @IBOutlet weak var category_description: UILabel!
 }
