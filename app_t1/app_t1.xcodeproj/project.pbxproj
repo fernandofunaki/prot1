@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE3D11DA20A7717500977E05 /* PedidoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D11D920A7717500977E05 /* PedidoController.swift */; };
+		EE3D11DC20A779AD00977E05 /* ExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D11DB20A779AD00977E05 /* ExperienceController.swift */; };
 		EE7D25D820A0EF3F0039D1DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D25D720A0EF3F0039D1DA /* AppDelegate.swift */; };
 		EE7D25DA20A0EF3F0039D1DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D25D920A0EF3F0039D1DA /* ViewController.swift */; };
 		EE7D25DF20A0EF400039D1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7D25DE20A0EF400039D1DA /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE3D11D920A7717500977E05 /* PedidoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidoController.swift; sourceTree = "<group>"; };
+		EE3D11DB20A779AD00977E05 /* ExperienceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceController.swift; sourceTree = "<group>"; };
 		EE7D25D420A0EF3F0039D1DA /* app_t1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_t1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7D25D720A0EF3F0039D1DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE7D25D920A0EF3F0039D1DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				EE7D25E320A0EF400039D1DA /* Info.plist */,
 				EEB8E25E20A28B92009443DF /* SubCell.swift */,
 				EEB8E26020A28C83009443DF /* SubViewController.swift */,
+				EE3D11D920A7717500977E05 /* PedidoController.swift */,
+				EE3D11DB20A779AD00977E05 /* ExperienceController.swift */,
 			);
 			path = app_t1;
 			sourceTree = "<group>";
@@ -148,8 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE9AF06020A2682500994323 /* CategoryCellCollectionViewCell.swift in Sources */,
+				EE3D11DC20A779AD00977E05 /* ExperienceController.swift in Sources */,
 				EEB8E25F20A28B92009443DF /* SubCell.swift in Sources */,
 				EE9AF05C20A13A1500994323 /* LoginViewController.swift in Sources */,
+				EE3D11DA20A7717500977E05 /* PedidoController.swift in Sources */,
 				EEB8E26120A28C83009443DF /* SubViewController.swift in Sources */,
 				EE7D25DA20A0EF3F0039D1DA /* ViewController.swift in Sources */,
 				EE7D25D820A0EF3F0039D1DA /* AppDelegate.swift in Sources */,
