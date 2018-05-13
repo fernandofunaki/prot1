@@ -13,45 +13,31 @@
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="launchView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mGx-61-cYw">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smart-logo" translatesAutoresizingMaskIntoConstraints="NO" id="mrg-aP-78c">
-                                        <rect key="frame" x="111.5" y="287.5" width="152" height="72"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="152" id="g1h-za-zFs"/>
-                                            <constraint firstAttribute="height" constant="72" id="s2H-kA-au1"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="m5" translatesAutoresizingMaskIntoConstraints="NO" id="mrg-aP-78c">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sgZ-7u-YH8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="mrg-aP-78c" firstAttribute="centerY" secondItem="mGx-61-cYw" secondAttribute="centerY" id="bYx-xg-F0T"/>
-                                    <constraint firstItem="mrg-aP-78c" firstAttribute="centerX" secondItem="mGx-61-cYw" secondAttribute="centerX" id="qp3-p7-vN4"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="mGx-61-cYw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7oz-nO-ez8"/>
-                            <constraint firstItem="mGx-61-cYw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pAb-W6-S7a"/>
-                            <constraint firstItem="mGx-61-cYw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yWE-KJ-3Jm"/>
-                            <constraint firstItem="mGx-61-cYw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ytN-rV-gLa"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="51.5" y="374.5"/>
         </scene>
     </scenes>
     <resources>
-        <image name="smart-logo" width="385" height="173"/>
+        <image name="m5" width="750" height="1334"/>
     </resources>
 </document>

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SubViewController : UIViewController,  UICollectionViewDataSource, UICollectionViewDelegate {
+class SubViewController : UIViewController,  UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
     let categories = ["Internet", "Sistemas Op.", "Redes", "Formatação", "Limpeza", "Wordpress"]
     let texts = ["Internet Internet Internet Internet Internet Internet Internet Internet Internet Internet ", "Sistemas Op. Sistemas Op. Sistemas Op. Sistemas Op. Sistemas Op. Sistemas Op. Sistemas Op. Sistemas Op. ", "Redes Redes Redes Redes Redes Redes Redes Redes Redes Redes Redes Redes Redes Redes Redes ", "Formatação Formatação Formatação Formatação Formatação Formatação Formatação Formatação ", "Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza", "Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress"]
@@ -24,6 +24,9 @@ class SubViewController : UIViewController,  UICollectionViewDataSource, UIColle
         // Dispose of any resources that can be recreated.
     }
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: self.view.frame.width - 10, height: 200)
+    }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return categories.count

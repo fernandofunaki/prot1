@@ -18,6 +18,8 @@
 		EE9AF06020A2682500994323 /* CategoryCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9AF05F20A2682500994323 /* CategoryCellCollectionViewCell.swift */; };
 		EEB8E25F20A28B92009443DF /* SubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8E25E20A28B92009443DF /* SubCell.swift */; };
 		EEB8E26120A28C83009443DF /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8E26020A28C83009443DF /* SubViewController.swift */; };
+		EEDC447020A8600C002E27AA /* ExPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC446F20A8600C002E27AA /* ExPageViewController.swift */; };
+		EEDC447220A882F7002E27AA /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC447120A882F7002E27AA /* LaunchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		EE9AF05F20A2682500994323 /* CategoryCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		EEB8E25E20A28B92009443DF /* SubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCell.swift; sourceTree = "<group>"; };
 		EEB8E26020A28C83009443DF /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		EEDC446F20A8600C002E27AA /* ExPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExPageViewController.swift; sourceTree = "<group>"; };
+		EEDC447120A882F7002E27AA /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				EEB8E26020A28C83009443DF /* SubViewController.swift */,
 				EE3D11D920A7717500977E05 /* PedidoController.swift */,
 				EE3D11DB20A779AD00977E05 /* ExperienceController.swift */,
+				EEDC446F20A8600C002E27AA /* ExPageViewController.swift */,
+				EEDC447120A882F7002E27AA /* LaunchController.swift */,
 			);
 			path = app_t1;
 			sourceTree = "<group>";
@@ -155,9 +161,11 @@
 			files = (
 				EE9AF06020A2682500994323 /* CategoryCellCollectionViewCell.swift in Sources */,
 				EE3D11DC20A779AD00977E05 /* ExperienceController.swift in Sources */,
+				EEDC447020A8600C002E27AA /* ExPageViewController.swift in Sources */,
 				EEB8E25F20A28B92009443DF /* SubCell.swift in Sources */,
 				EE9AF05C20A13A1500994323 /* LoginViewController.swift in Sources */,
 				EE3D11DA20A7717500977E05 /* PedidoController.swift in Sources */,
+				EEDC447220A882F7002E27AA /* LaunchController.swift in Sources */,
 				EEB8E26120A28C83009443DF /* SubViewController.swift in Sources */,
 				EE7D25DA20A0EF3F0039D1DA /* ViewController.swift in Sources */,
 				EE7D25D820A0EF3F0039D1DA /* AppDelegate.swift in Sources */,
