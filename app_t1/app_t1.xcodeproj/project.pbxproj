@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D90D02D00C7EEB92E450E86 /* Pods_app_t1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCAE9BBFCA02A298EAA41EC /* Pods_app_t1.framework */; };
 		EE3D11DA20A7717500977E05 /* PedidoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D11D920A7717500977E05 /* PedidoController.swift */; };
 		EE3D11DC20A779AD00977E05 /* ExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D11DB20A779AD00977E05 /* ExperienceController.swift */; };
+		EE3D11DE20AE2B1700977E05 /* PagamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D11DD20AE2B1700977E05 /* PagamentoViewController.swift */; };
 		EE7D25D820A0EF3F0039D1DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D25D720A0EF3F0039D1DA /* AppDelegate.swift */; };
-		EE7D25DA20A0EF3F0039D1DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D25D920A0EF3F0039D1DA /* ViewController.swift */; };
+		EE7D25DA20A0EF3F0039D1DA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D25D920A0EF3F0039D1DA /* HomeViewController.swift */; };
 		EE7D25DF20A0EF400039D1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7D25DE20A0EF400039D1DA /* Assets.xcassets */; };
 		EE7D25E220A0EF400039D1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7D25E020A0EF400039D1DA /* LaunchScreen.storyboard */; };
 		EE7D25EA20A0EFBE0039D1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7D25E920A0EFBE0039D1DA /* Main.storyboard */; };
 		EE9AF05C20A13A1500994323 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9AF05B20A13A1500994323 /* LoginViewController.swift */; };
 		EE9AF06020A2682500994323 /* CategoryCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9AF05F20A2682500994323 /* CategoryCellCollectionViewCell.swift */; };
 		EEB8E25F20A28B92009443DF /* SubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8E25E20A28B92009443DF /* SubCell.swift */; };
-		EEB8E26120A28C83009443DF /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8E26020A28C83009443DF /* SubViewController.swift */; };
+		EEB8E26120A28C83009443DF /* ServicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8E26020A28C83009443DF /* ServicoViewController.swift */; };
 		EEDC447020A8600C002E27AA /* ExPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC446F20A8600C002E27AA /* ExPageViewController.swift */; };
 		EEDC447220A882F7002E27AA /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC447120A882F7002E27AA /* LaunchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C688B2496F9F1531AF6CAF7 /* Pods-app_t1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app_t1.release.xcconfig"; path = "Pods/Target Support Files/Pods-app_t1/Pods-app_t1.release.xcconfig"; sourceTree = "<group>"; };
+		67D361B9F856A8648D2364FF /* Pods-app_t1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app_t1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-app_t1/Pods-app_t1.debug.xcconfig"; sourceTree = "<group>"; };
+		AFCAE9BBFCA02A298EAA41EC /* Pods_app_t1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app_t1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3D11D920A7717500977E05 /* PedidoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidoController.swift; sourceTree = "<group>"; };
 		EE3D11DB20A779AD00977E05 /* ExperienceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceController.swift; sourceTree = "<group>"; };
+		EE3D11DD20AE2B1700977E05 /* PagamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagamentoViewController.swift; sourceTree = "<group>"; };
 		EE7D25D420A0EF3F0039D1DA /* app_t1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_t1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7D25D720A0EF3F0039D1DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE7D25D920A0EF3F0039D1DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE7D25D920A0EF3F0039D1DA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EE7D25DE20A0EF400039D1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE7D25E120A0EF400039D1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE7D25E320A0EF400039D1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,7 +41,7 @@
 		EE9AF05B20A13A1500994323 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EE9AF05F20A2682500994323 /* CategoryCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		EEB8E25E20A28B92009443DF /* SubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCell.swift; sourceTree = "<group>"; };
-		EEB8E26020A28C83009443DF /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		EEB8E26020A28C83009443DF /* ServicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicoViewController.swift; sourceTree = "<group>"; };
 		EEDC446F20A8600C002E27AA /* ExPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExPageViewController.swift; sourceTree = "<group>"; };
 		EEDC447120A882F7002E27AA /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D90D02D00C7EEB92E450E86 /* Pods_app_t1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE9A57035ED02F2FC7DF47DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFCAE9BBFCA02A298EAA41EC /* Pods_app_t1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB5E29CB62A7A5E9341A5519 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D361B9F856A8648D2364FF /* Pods-app_t1.debug.xcconfig */,
+				5C688B2496F9F1531AF6CAF7 /* Pods-app_t1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EE7D25CB20A0EF3F0039D1DA = {
 			isa = PBXGroup;
 			children = (
 				EE7D25D620A0EF3F0039D1DA /* app_t1 */,
 				EE7D25D520A0EF3F0039D1DA /* Products */,
+				DB5E29CB62A7A5E9341A5519 /* Pods */,
+				CE9A57035ED02F2FC7DF47DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,18 +98,19 @@
 			children = (
 				EE9AF05F20A2682500994323 /* CategoryCellCollectionViewCell.swift */,
 				EE7D25D720A0EF3F0039D1DA /* AppDelegate.swift */,
-				EE7D25D920A0EF3F0039D1DA /* ViewController.swift */,
+				EE7D25D920A0EF3F0039D1DA /* HomeViewController.swift */,
 				EE7D25E920A0EFBE0039D1DA /* Main.storyboard */,
 				EE9AF05B20A13A1500994323 /* LoginViewController.swift */,
 				EE7D25DE20A0EF400039D1DA /* Assets.xcassets */,
 				EE7D25E020A0EF400039D1DA /* LaunchScreen.storyboard */,
 				EE7D25E320A0EF400039D1DA /* Info.plist */,
 				EEB8E25E20A28B92009443DF /* SubCell.swift */,
-				EEB8E26020A28C83009443DF /* SubViewController.swift */,
+				EEB8E26020A28C83009443DF /* ServicoViewController.swift */,
 				EE3D11D920A7717500977E05 /* PedidoController.swift */,
 				EE3D11DB20A779AD00977E05 /* ExperienceController.swift */,
 				EEDC446F20A8600C002E27AA /* ExPageViewController.swift */,
 				EEDC447120A882F7002E27AA /* LaunchController.swift */,
+				EE3D11DD20AE2B1700977E05 /* PagamentoViewController.swift */,
 			);
 			path = app_t1;
 			sourceTree = "<group>";
@@ -95,6 +122,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE7D25E620A0EF400039D1DA /* Build configuration list for PBXNativeTarget "app_t1" */;
 			buildPhases = (
+				26F4D8D67FE5B758AE6346A5 /* [CP] Check Pods Manifest.lock */,
 				EE7D25D020A0EF3F0039D1DA /* Sources */,
 				EE7D25D120A0EF3F0039D1DA /* Frameworks */,
 				EE7D25D220A0EF3F0039D1DA /* Resources */,
@@ -154,6 +182,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26F4D8D67FE5B758AE6346A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-app_t1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE7D25D020A0EF3F0039D1DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -166,8 +215,9 @@
 				EE9AF05C20A13A1500994323 /* LoginViewController.swift in Sources */,
 				EE3D11DA20A7717500977E05 /* PedidoController.swift in Sources */,
 				EEDC447220A882F7002E27AA /* LaunchController.swift in Sources */,
-				EEB8E26120A28C83009443DF /* SubViewController.swift in Sources */,
-				EE7D25DA20A0EF3F0039D1DA /* ViewController.swift in Sources */,
+				EE3D11DE20AE2B1700977E05 /* PagamentoViewController.swift in Sources */,
+				EEB8E26120A28C83009443DF /* ServicoViewController.swift in Sources */,
+				EE7D25DA20A0EF3F0039D1DA /* HomeViewController.swift in Sources */,
 				EE7D25D820A0EF3F0039D1DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,15 +352,13 @@
 		};
 		EE7D25E720A0EF400039D1DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D361B9F856A8648D2364FF /* Pods-app_t1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5D3PS62W64;
 				INFOPLIST_FILE = app_t1/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.funaki.app-t1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -320,15 +368,13 @@
 		};
 		EE7D25E820A0EF400039D1DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C688B2496F9F1531AF6CAF7 /* Pods-app_t1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5D3PS62W64;
 				INFOPLIST_FILE = app_t1/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.funaki.app-t1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
-    let categories = ["Internet", "Sistemas Op.", "Redes", "Formatação", "Limpeza", "Wordpress"]
+    let categories = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6"]
     let categoryImages = [UIImage(named: "m1"),UIImage(named: "m2"),UIImage(named: "m3"),UIImage(named: "m1"),UIImage(named: "m2"),UIImage(named: "m3")]
 
     override func viewDidLoad() {
       super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
     
     }
 

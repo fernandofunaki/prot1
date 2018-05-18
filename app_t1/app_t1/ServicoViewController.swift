@@ -8,9 +8,9 @@
 
 import UIKit
 
-class SubViewController : UIViewController,  UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class ServicoViewController : UIViewController,  UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
-    let categories = ["Internet", "Sistemas Op.", "Redes", "Formatação", "Limpeza", "Wordpress"]
+    let categories = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6"]
     let texts = ["Internet Internet Internet Internet Internet Internet Internet Internet Internet Internet ", "Sistemas Op. Sistemas Op. Sistemas Op. Sistemas Op. Sistemas Op. Sistemas Op. Sistemas Op. Sistemas Op. ", "Redes Redes Redes Redes Redes Redes Redes Redes Redes Redes Redes Redes Redes Redes Redes ", "Formatação Formatação Formatação Formatação Formatação Formatação Formatação Formatação ", "Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza Limpeza", "Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress"]
     let categoryImages = [UIImage(named: "m1"),UIImage(named: "m2"),UIImage(named: "m3"),UIImage(named: "m1"),UIImage(named: "m2"),UIImage(named: "m3")]
     
@@ -25,7 +25,7 @@ class SubViewController : UIViewController,  UICollectionViewDataSource, UIColle
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: self.view.frame.width - 10, height: 200)
+        return CGSize(width: self.view.frame.width - 10, height: 250)
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
